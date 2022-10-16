@@ -99,18 +99,24 @@ namespace KartaPracy2a
             int b = int.Parse(Console.ReadLine());
             System.Console.Write("Wpisz liczbę c: ");
             int c = int.Parse(Console.ReadLine());
+            System.Console.Write("Wpisz liczbę d: ");
+            int d = int.Parse(Console.ReadLine());
             
-            if (a<b && a<c)
+            if (a<b && a<c && a<d)
             {
                 System.Console.WriteLine("Liczba A jest najmniejsza");
             }
-            else if (b<a && b<c)
+            else if (b<a && b<c && b<d)
             {
                 System.Console.WriteLine("Liczba B jest najmniejsza");
             }
-             else if (c<a && c<b)
+             else if (c<a && c<b && c<d)
             {
                 System.Console.WriteLine("Liczba C jest najmniejsza");
+            }
+              else if (d<a && d<b && d<c)
+            {
+                System.Console.WriteLine("Liczba D jest najmniejsza");
             }
             else 
             {
